@@ -1,0 +1,43 @@
+{
+  "interface": {
+    "prefix": "int",
+    "description": "TypeScript Interface",
+    "body": [
+      "interface ${1:name} {",
+      "\t${2}: ${3}",
+      "}"
+    ]
+  },
+  "interface extends": {
+    "prefix": "intx",
+    "description": "TypeScript Interface Extends",
+    "body": [
+      "interface ${1:name} extends ${2:other}{",
+      "\t${3}: ${4: any}",
+      "}"
+    ]
+  },
+  "TS function": {
+    "prefix": "tf",
+    "description": "Normal named function (TypeScript)",
+    "body": [
+      "function ${1:name}(${2}): ${3: any} {",
+      "\t${4}",
+      "}"
+    ]
+  },
+  "TS asyncronous function": {
+    "prefix": "tasf",
+    "description": "Normal named asyncronous function (TypeScript)",
+    "body": [
+      "async function ${1:name}(${2}): Promise<${3}> {",
+      "\t${4}",
+      "}"
+    ]
+  },
+  "TS constant assignment": {
+    "prefix": "tc",
+    "description": "Constant Assignment (TypeScript)",
+    "body": "const ${1:name}:${2:any} = ${3:value};"
+  }
+}

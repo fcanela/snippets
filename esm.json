@@ -1,0 +1,17 @@
+{
+  "import default": {
+    "prefix": "imd",
+    "description": "import xyz from 'xyz'",
+    "body": "import ${1} from '${1}'"
+  },
+  "import all as": {
+    "prefix": "imas",
+    "description": "import * as xyz from 'xyz'",
+    "body": "import * as ${1} from '${2:$1}'"
+  },
+  "import member": {
+    "prefix": "ime",
+    "description": "import { member } from 'xyz'",
+    "body": "import { ${1: member} } from '${2:package}'"
+  }
+}

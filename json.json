@@ -1,0 +1,13 @@
+{
+  "snippet": {
+    "prefix": "snippet",
+    "description": "A luasnip code snippet",
+    "body": [
+      "\"${0:identifier}\": {",
+      "\t\"prefix\": \"${1:prefix}\",",
+      "\t\"description\": \"${2:description}\",",
+      "\t\"body\": \"${3:body}\"",
+      "}"
+    ]
+  }
+}

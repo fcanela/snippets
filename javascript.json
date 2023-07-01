@@ -1,0 +1,102 @@
+{
+  "function": {
+    "prefix": "f",
+    "description": "Normal named function",
+    "body": [
+      "function ${1:name}(${2}) {",
+      "\t${3}",
+      "}"
+    ]
+  },
+  "asyncronous function": {
+    "prefix": "asf",
+    "description": "Normal named asyncronous function",
+    "body": [
+      "async function ${1:name}(${2}) {",
+      "\t${3}",
+      "}"
+    ]
+  },
+  "arrow function": {
+    "prefix": "af",
+    "description": "Arrow Function",
+    "body": [
+      "(${1}) => {",
+      "\t${2}",
+      "}"
+    ]
+  },
+  "asyncronous arrow function": {
+    "prefix": "af",
+    "description": "Async Arrow Function",
+    "body": [
+      "async (${1}) => {",
+      "\t${2}",
+      "}"
+    ]
+  },
+  "inline arrow function": {
+    "prefix": "afi",
+    "description": "Arrow Function (Inline)",
+    "body": "(${1}) => ${2}"
+  },
+  "constant assignment": {
+    "prefix": "c",
+    "description": "Constant Assignment",
+    "body": "const ${1:name} = ${2:value};"
+  },
+  "constant assignment destructuring object": {
+    "prefix": "cdo",
+    "description": "Constant Assignment Destructuring Object",
+    "body": "const { ${1:field} } = ${2:object};"
+  },
+  "constant assignment destructuring array": {
+    "prefix": "cda",
+    "description": "Constant Assignment Destructuring Array",
+    "body": "const [ ${1:item} ] = ${2:array};"
+  },
+  "let assignment": {
+    "prefix": "l",
+    "description": "Let Assignment",
+    "body": "let ${1:name} = ${2:value};"
+  },
+  "if": {
+    "prefix": "if",
+    "description": "If Clause",
+    "body": [
+      "if (${1}) {",
+      "\t${2}",
+      "}"
+    ]
+  },
+  "one line if": {
+    "prefix": "ifl",
+    "description": "If Clause (one line)",
+    "body": "if (${1}) "
+  },
+  "early return if": {
+    "prefix": "ifr",
+    "description": "Early return",
+    "body": "if (${1}) return${2};"
+  },
+  "ternary": {
+    "prefix": "ter",
+    "description": "Ternary",
+    "body": "${1} ? ${2} : ${3};"
+  },
+  "console.log": {
+    "prefix": "cl",
+    "description": "console.log",
+    "body": "console.log(${1});"
+  },
+  "console.log variable": {
+    "prefix": "clv",
+    "description": "console.log variable",
+    "body": "console.log('debug', '${1} =', ${2:$1});"
+  },
+  "console.log stringified variable": {
+    "prefix": "clvs",
+    "description": "console.log stringified variable",
+    "body": "console.log('debug', '${1} =', JSON.stringfy(${2:$1}, null, 2));"
+  }
+}
