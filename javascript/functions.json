@@ -1,0 +1,43 @@
+{
+  "function": {
+    "prefix": "f",
+    "description": "function block",
+    "body": [
+      "function ${1:name}(${2}) {",
+      "\t${3}",
+      "}"
+    ]
+  },
+  "asyncronous function": {
+    "prefix": "asf",
+    "description": "asyncronous function block",
+    "body": [
+      "async function ${1:name}(${2}) {",
+      "\t${3}",
+      "}"
+    ]
+  },
+  "arrow function": {
+    "prefix": "af",
+    "description": "arrow function block",
+    "body": [
+      "(${1}) => {",
+      "\t${2}",
+      "}"
+    ]
+  },
+  "asyncronous arrow function": {
+    "prefix": "asaf",
+    "description": "async arrow function",
+    "body": [
+      "async (${1}) => {",
+      "\t${2}",
+      "}"
+    ]
+  },
+  "inline arrow function": {
+    "prefix": "afi",
+    "description": "arrow function inline",
+    "body": "(${1}) => ${2}"
+  }
+}

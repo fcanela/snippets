@@ -1,0 +1,22 @@
+{
+  "constant assignment": {
+    "prefix": "c",
+    "description": "constant",
+    "body": "const ${1:name} = ${2:value};"
+  },
+  "constant assignment destructuring object": {
+    "prefix": "cd",
+    "description": "constant destructuring",
+    "body": "const { ${1:field} } = ${2:object};"
+  },
+  "constant assignment destructuring array": {
+    "prefix": "cda",
+    "description": "constant destructuring array",
+    "body": "const [ ${1:item} ] = ${2:array};"
+  },
+  "let assignment": {
+    "prefix": "l",
+    "description": "let",
+    "body": "let ${1:name} = ${2:value};"
+  }
+}

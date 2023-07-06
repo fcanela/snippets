@@ -19,21 +19,7 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./javascript.json"
-      },
-      {
-        "language": [
-          "javascript",
-          "typescript"
-        ],
-        "path": "./node.json"
-      },
-      {
-        "language": [
-          "javascript",
-          "typescript"
-        ],
-        "path": "./commonjs.json"
+        "path": "./javascript/misc.json"
       },
       {
         "language": [
@@ -42,7 +28,7 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./esm.json"
+        "path": "./javascript/variables.json"
       },
       {
         "language": [
@@ -51,7 +37,48 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./jsdoc.json"
+        "path": "./javascript/functions.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ],
+        "path": "./javascript/flow-control.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "typescript"
+        ],
+        "path": "./javascript/node.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "typescript"
+        ],
+        "path": "./javascript/commonjs.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ],
+        "path": "./javascript/esm.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "typescript",
+          "typescriptreact"
+        ],
+        "path": "./javascript/jsdoc.json"
       },
       {
         "language": ["json"],

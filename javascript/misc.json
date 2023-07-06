@@ -1,0 +1,17 @@
+{
+  "console.log": {
+    "prefix": "cl",
+    "description": "console.log",
+    "body": "console.log(${1});"
+  },
+  "console.log variable": {
+    "prefix": "clv",
+    "description": "console.log variable",
+    "body": "console.log('debug', '${1} =', ${2:$1});"
+  },
+  "console.log stringified variable": {
+    "prefix": "clvs",
+    "description": "console.log stringified variable",
+    "body": "console.log('debug', '${1} =', JSON.stringfy(${2:$1}, null, 2));"
+  }
+}

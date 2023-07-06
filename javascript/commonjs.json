@@ -1,17 +1,17 @@
 {
   "default export": {
-    "prefix": "me",
-    "description": "CommonJS default export",
+    "prefix": "mo",
+    "description": "CJS default export",
     "body": "module.exports = ${1};"
   },
   "require": {
     "prefix": "cr",
-    "description": "Constant Assigment to Require",
+    "description": "CJS constant from require",
     "body": "const ${1:name} = require('${2:$1}');"
   },
   "require member": {
     "prefix": "crd",
-    "description": "Constant Assigment to Destructured Require",
+    "description": "CJS constant from require (destructured)",
     "body": "const { ${1:name} } = require('${2}');"
   }
 }

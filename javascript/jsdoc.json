@@ -14,7 +14,7 @@
       " * ```",
       " */"
     ],
-    "description": "A full JSDoc comment with description, parameters, return, and example."
+    "description": "full JSDoc comment with description, parameters, return, and example."
   },
   "comment simple": {
     "prefix": "/*",
@@ -23,16 +23,16 @@
       " * ${1:Comment.}$0",
       " */"
     ],
-    "description": "A simpple JSDoc comment."
+    "description": "simple JSDoc comment."
   },
   "dosctring parameter": {
     "prefix": "@par",
-    "description": "Parameter DocString",
+    "description": "parameter docstring",
     "body": "@param (${1:type}) ${2:name} ${3:description};"
   },
   "dosctring return": {
     "prefix": "@ret",
-    "description": "Return DocString",
+    "description": "return docstring",
     "body": "@return (${1:type}) ${2:description};"
   }
 }
