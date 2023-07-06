@@ -27,7 +27,7 @@
     ]
   },
   "asyncronous arrow function": {
-    "prefix": "af",
+    "prefix": "asaf",
     "description": "Async Arrow Function",
     "body": [
       "async (${1}) => {",
